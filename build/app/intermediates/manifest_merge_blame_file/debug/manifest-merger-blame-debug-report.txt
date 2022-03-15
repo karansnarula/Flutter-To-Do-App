@@ -1,0 +1,408 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.time_tracker"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:4:5-66
+14-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5df32c6d3c493eba8aacb792d77efe43\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+16-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5df32c6d3c493eba8aacb792d77efe43\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+17
+18    <application
+18-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:6:4-63:19
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\875654acb8fd75501dc33efa1bebb479\core-1.6.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:8:9-43
+22        android:label="time_tracker"
+22-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:7:9-37
+23        android:supportsRtl="true" >
+23-->[com.facebook.android:facebook-login:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\daf5fc13de7b99e3a5bdc9517fcf2202\jetified-facebook-login-12.0.1\AndroidManifest.xml:28:18-44
+24        <activity
+24-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:9:9-37:20
+25            android:name="com.example.time_tracker.MainActivity"
+25-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:10:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:13:13-163
+27            android:hardwareAccelerated="true"
+27-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:14:13-47
+28            android:launchMode="singleTop"
+28-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:11:13-43
+29            android:theme="@style/LaunchTheme"
+29-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:12:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:15:13-55
+31
+32            <!--
+33                 Specifies an Android theme to apply to this Activity as soon as
+34                 the Android process has started. This theme is visible to the user
+35                 while the Flutter UI initializes. After that, this theme continues
+36                 to determine the Window background behind the Flutter UI.
+37            -->
+38            <meta-data
+38-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:20:13-23:17
+39                android:name="io.flutter.embedding.android.NormalTheme"
+39-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:21:15-70
+40                android:resource="@style/NormalTheme" />
+40-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:22:15-52
+41            <!--
+42                 Displays an Android View that continues showing the launch screen
+43                 Drawable until Flutter paints its first frame, then this splash
+44                 screen fades out. A splash screen is useful to avoid any visual
+45                 gap between the end of Android's launch screen and the painting of
+46                 Flutter's first frame.
+47            -->
+48            <meta-data
+48-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:29:13-32:17
+49                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+49-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:30:15-79
+50                android:resource="@drawable/launch_background" />
+50-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:31:15-61
+51
+52            <intent-filter>
+52-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:33:13-36:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:34:17-68
+53-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:34:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:35:17-76
+55-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:35:27-74
+56            </intent-filter>
+57        </activity>
+58        <!--
+59             Don't delete the meta-data below.
+60             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+61        -->
+62        <meta-data
+62-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:40:9-42:33
+63            android:name="flutterEmbedding"
+63-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:41:13-44
+64            android:value="2" />
+64-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:42:13-30
+65
+66        <activity
+66-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:45:5-48:44
+67            android:name="com.facebook.FacebookActivity"
+67-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:45:15-59
+68            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+68-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:46:9-110
+69            android:label="@string/app_name"
+69-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:48:9-41
+70            android:theme="@style/com_facebook_activity_theme" />
+70-->[com.facebook.android:facebook-common:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c7b540a94d5ea1aa531babdcbdb24436\jetified-facebook-common-12.0.1\AndroidManifest.xml:33:13-63
+71        <activity
+71-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:49:5-58:16
+72            android:name="com.facebook.CustomTabActivity"
+72-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:50:9-54
+73            android:exported="true" >
+73-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:51:9-32
+74            <intent-filter>
+74-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:52:9-57:25
+75                <action android:name="android.intent.action.VIEW" />
+75-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:53:13-65
+75-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:53:21-62
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:54:13-72
+77-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:54:23-69
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:55:13-74
+78-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:55:23-71
+79
+80                <data android:scheme="@string/fb_login_protocol_scheme" />
+80-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:56:13-71
+80-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:56:19-68
+81            </intent-filter>
+82            <intent-filter>
+82-->[com.facebook.android:facebook-common:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c7b540a94d5ea1aa531babdcbdb24436\jetified-facebook-common-12.0.1\AndroidManifest.xml:39:13-48:29
+83                <action android:name="android.intent.action.VIEW" />
+83-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:53:13-65
+83-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:53:21-62
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:54:13-72
+85-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:54:23-69
+86                <category android:name="android.intent.category.BROWSABLE" />
+86-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:55:13-74
+86-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:55:23-71
+87
+88                <data
+88-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:56:13-71
+89                    android:host="cct.com.example.time_tracker"
+90                    android:scheme="fbconnect" />
+90-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:56:19-68
+91            </intent-filter>
+92        </activity>
+93
+94        <meta-data
+94-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:60:1-99
+95            android:name="com.facebook.sdk.ApplicationId"
+95-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:60:12-57
+96            android:value="@string/facebook_app_id" />
+96-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:60:58-97
+97        <meta-data
+97-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:61:1-103
+98            android:name="com.facebook.sdk.ClientToken"
+98-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:61:12-55
+99            android:value="@string/facebook_client_token" />
+99-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:61:56-101
+100
+101        <service
+101-->[:firebase_auth] C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+102            android:name="com.google.firebase.components.ComponentDiscoveryService"
+102-->[:firebase_auth] C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+103            android:directBootAware="true"
+103-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+104            android:exported="false" >
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+105            <meta-data
+105-->[:firebase_auth] C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+106                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+106-->[:firebase_auth] C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[:firebase_auth] C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+108            <meta-data
+108-->[:cloud_firestore] C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+109                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+109-->[:cloud_firestore] C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[:cloud_firestore] C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+111            <meta-data
+111-->[:firebase_core] C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+112                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+112-->[:firebase_core] C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[:firebase_core] C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+115                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\32b4359c1904b92c567245c95e5bbee9\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:20:13-22:85
+118                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+118-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\32b4359c1904b92c567245c95e5bbee9\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:21:17-111
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\32b4359c1904b92c567245c95e5bbee9\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:22:17-82
+120        </service>
+121
+122        <activity android:name="com.facebook.CustomTabMainActivity" />
+122-->[com.facebook.android:facebook-common:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c7b540a94d5ea1aa531babdcbdb24436\jetified-facebook-common-12.0.1\AndroidManifest.xml:34:9-71
+122-->[com.facebook.android:facebook-common:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\c7b540a94d5ea1aa531babdcbdb24436\jetified-facebook-common-12.0.1\AndroidManifest.xml:34:19-68
+123        <!--
+124         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+125         with the application context. This config is merged in with the host app's manifest,
+126         but there can only be one provider with the same authority activated at any given
+127         point; so if the end user has two or more different apps that use Facebook SDK, only the
+128         first one will be able to use the provider. To work around this problem, we use the
+129         following placeholder in the authority to identify each host application as if it was
+130         a completely different provider.
+131        -->
+132        <provider
+132-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:39:9-42:40
+133            android:name="com.facebook.internal.FacebookInitProvider"
+133-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:40:13-70
+134            android:authorities="com.example.time_tracker.FacebookInitProvider"
+134-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:41:13-72
+135            android:exported="false" />
+135-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:42:13-37
+136
+137        <receiver
+137-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:44:9-50:20
+138            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+138-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:45:13-86
+139            android:exported="false" >
+139-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:46:13-37
+140            <intent-filter>
+140-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:47:13-49:29
+141                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+141-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:48:17-95
+141-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:48:25-92
+142            </intent-filter>
+143        </receiver>
+144        <receiver
+144-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:51:9-57:20
+145            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+145-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:52:13-118
+146            android:exported="false" >
+146-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:53:13-37
+147            <intent-filter>
+147-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:54:13-56:29
+148                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+148-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:55:17-103
+148-->[com.facebook.android:facebook-core:12.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\7d28c6a616265c7e2840eb84fdd56ca3\jetified-facebook-core-12.0.1\AndroidManifest.xml:55:25-100
+149            </intent-filter>
+150        </receiver>
+151
+152        <uses-library
+152-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9a30143a20a029e68d2a2c8980fee508\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+153            android:name="androidx.window.extensions"
+153-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9a30143a20a029e68d2a2c8980fee508\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+154            android:required="false" />
+154-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9a30143a20a029e68d2a2c8980fee508\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+155        <uses-library
+155-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9a30143a20a029e68d2a2c8980fee508\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+156            android:name="androidx.window.sidecar"
+156-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9a30143a20a029e68d2a2c8980fee508\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+157            android:required="false" />
+157-->[androidx.window:window:1.0.0-beta04] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\9a30143a20a029e68d2a2c8980fee508\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+158
+159        <activity
+159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+160            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+160-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+161            android:excludeFromRecents="true"
+161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+162            android:exported="true"
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+163            android:launchMode="singleTask"
+163-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+164            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+165            <intent-filter>
+165-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+166                <action android:name="android.intent.action.VIEW" />
+166-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:53:13-65
+166-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:53:21-62
+167
+168                <category android:name="android.intent.category.DEFAULT" />
+168-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:54:13-72
+168-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:54:23-69
+169                <category android:name="android.intent.category.BROWSABLE" />
+169-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:55:13-74
+169-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:55:23-71
+170
+171                <data
+171-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:56:13-71
+172                    android:host="firebase.auth"
+173                    android:path="/"
+174                    android:scheme="genericidp" />
+174-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:56:19-68
+175            </intent-filter>
+176        </activity>
+177        <activity
+177-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+178            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+178-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+179            android:excludeFromRecents="true"
+179-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+180            android:exported="true"
+180-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+181            android:launchMode="singleTask"
+181-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+182            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+182-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+183            <intent-filter>
+183-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+184                <action android:name="android.intent.action.VIEW" />
+184-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:53:13-65
+184-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:53:21-62
+185
+186                <category android:name="android.intent.category.DEFAULT" />
+186-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:54:13-72
+186-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:54:23-69
+187                <category android:name="android.intent.category.BROWSABLE" />
+187-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:55:13-74
+187-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:55:23-71
+188
+189                <data
+189-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:56:13-71
+190                    android:host="firebase.auth"
+191                    android:path="/"
+192                    android:scheme="recaptcha" />
+192-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:56:19-68
+193            </intent-filter>
+194        </activity>
+195
+196        <service
+196-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+197            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+197-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+198            android:enabled="true"
+198-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+199            android:exported="false" >
+199-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+200            <intent-filter>
+200-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+201                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+201-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+201-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\48db3a26d0e210f3bf460c0f3f302962\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+202
+203                <category android:name="android.intent.category.DEFAULT" />
+203-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:54:13-72
+203-->C:\Users\Admin\Desktop\Flutter Projects\Projects\TimeTracker\time_tracker\android\app\src\main\AndroidManifest.xml:54:23-69
+204            </intent-filter>
+205        </service>
+206
+207        <provider
+207-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+208            android:name="com.google.firebase.provider.FirebaseInitProvider"
+208-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+209            android:authorities="com.example.time_tracker.firebaseinitprovider"
+209-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+210            android:directBootAware="true"
+210-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+211            android:exported="false"
+211-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+212            android:initOrder="100" />
+212-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+213
+214        <activity
+214-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\933009813afddbd11cc84c781f3e35e5\jetified-play-services-auth-20.0.1\AndroidManifest.xml:23:9-27:75
+215            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+215-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\933009813afddbd11cc84c781f3e35e5\jetified-play-services-auth-20.0.1\AndroidManifest.xml:24:13-93
+216            android:excludeFromRecents="true"
+216-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\933009813afddbd11cc84c781f3e35e5\jetified-play-services-auth-20.0.1\AndroidManifest.xml:25:13-46
+217            android:exported="false"
+217-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\933009813afddbd11cc84c781f3e35e5\jetified-play-services-auth-20.0.1\AndroidManifest.xml:26:13-37
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+218-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\933009813afddbd11cc84c781f3e35e5\jetified-play-services-auth-20.0.1\AndroidManifest.xml:27:13-72
+219        <!--
+220            Service handling Google Sign-In user revocation. For apps that do not integrate with
+221            Google Sign-In, this service will never be started.
+222        -->
+223        <service
+223-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\933009813afddbd11cc84c781f3e35e5\jetified-play-services-auth-20.0.1\AndroidManifest.xml:33:9-37:51
+224            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+224-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\933009813afddbd11cc84c781f3e35e5\jetified-play-services-auth-20.0.1\AndroidManifest.xml:34:13-89
+225            android:exported="true"
+225-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\933009813afddbd11cc84c781f3e35e5\jetified-play-services-auth-20.0.1\AndroidManifest.xml:35:13-36
+226            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+226-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\933009813afddbd11cc84c781f3e35e5\jetified-play-services-auth-20.0.1\AndroidManifest.xml:36:13-107
+227            android:visibleToInstantApps="true" />
+227-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\933009813afddbd11cc84c781f3e35e5\jetified-play-services-auth-20.0.1\AndroidManifest.xml:37:13-48
+228
+229        <activity
+229-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\37425ca1da537beeff65bfee35ec9b80\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+230            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+230-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\37425ca1da537beeff65bfee35ec9b80\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+231            android:exported="false"
+231-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\37425ca1da537beeff65bfee35ec9b80\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+232            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+232-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\37425ca1da537beeff65bfee35ec9b80\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+233
+234        <meta-data
+234-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2ffdea9840cb447d8a46ba75a1207d80\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+235            android:name="com.google.android.gms.version"
+235-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2ffdea9840cb447d8a46ba75a1207d80\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+236            android:value="@integer/google_play_services_version" />
+236-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2ffdea9840cb447d8a46ba75a1207d80\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+237    </application>
+238
+239</manifest>

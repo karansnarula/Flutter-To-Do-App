@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name= "app_name">Time Tracker Flutter</string>
+<string name="facebook_app_id">462259712022874</string>
+<string name="fb_login_protocol_scheme">fb462259712022874</string>
+<string name="facebook_client_token">f0e9f97321da0bc48e704b90b9ea5f71</string>
+
+
+</resources>
